@@ -34,7 +34,7 @@ public class Staticddl {
         s.selectByIndex(3);
         driver.findElement(By.cssSelector("#ctl00_mainContent_chk_StudentDiscount")).click();
         driver.findElement(By.cssSelector("#ctl00_mainContent_btn_FindFlights")).click(); 
-        
+        System.out.println("Static ddl test1");
        
 	}
 
