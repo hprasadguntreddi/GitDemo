@@ -14,6 +14,7 @@ public class Locators {
     driver.findElement(By.cssSelector("span input[value='rmbrUsername']")).click();
     driver.findElement(By.cssSelector("input[value='agreeTerms']")).click();
     driver.findElement(By.cssSelector(".submit.signInBtn")).click();
+    System.out.println("Test1");
 	}
 
 }
